@@ -1,0 +1,229 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color:#5A628E;
+	width:100%;
+	height:100%;
+}
+#nav{
+	padding-left:20px;
+	font-size:1.25em;
+}
+#nav a{
+list-style: none;
+padding: 20px;
+overflow: hidden;
+display: inline-block;
+text-decoration: none;
+color: black;	
+}
+#nav a:hover{
+	color:red;
+}
+.myImg{
+	padding-top:50px;
+	float:left;
+	padding-left:50px;
+}
+.container{
+	background:url('balance1.jpg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100%;
+	max-width:100%;
+	height:75em;
+	margin:auto;
+}
+.myBio {
+	position:relative;
+	display:inline-block;
+	width:100%;
+	padding-right:80px;
+	padding-left:10px;
+	padding:20px;
+    text-align:center;
+	margin-top:0;
+    background:rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size:1em;
+}
+.myBio text{
+	font-size:1.5em;
+}
+.myBio header{
+	font-size:2.5em;
+}
+.myBio p{
+	font-size:1.5em;
+}
+.myBio::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row {
+	  display: flex;
+	  flex-wrap: wrap;
+	  color: white;
+	  font-size:1.15em;
+}
+.col {
+	  flex: 25 25 25%; /* The important bit. This percentage decides your columns. */
+	  margin: 5px;
+	  height: 600px;
+	  background-color:#7B819E;
+	  align-items: normal;
+	  justify-content: center;
+	  padding-left:20px;
+	  padding-right:20px;
+}
+.col1 {
+	  flex: 50%; /* The important bit. This percentage decides your columns. */
+	  margin: 5px;
+	  height: 250px;
+	  background-color:#7B819E;
+	  align-items: normal;
+	  justify-content: center;  
+}
+.col2 {
+	  flex: 50%; /* The important bit. This percentage decides your columns. */
+	  margin: 5px;
+	  height: 250px;
+	  background-color:#7B819E;
+	  align-items: normal;
+	  justify-content: center;  
+}
+.wrapper{
+	position:absolute;
+	top:85%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.myForm{
+	width:100%;
+	max-width:600px;
+	height:600px;
+	background: rgba(0,0,0,0.5);
+	padding:60px 150px;
+	border-radius:5px;
+}
+.title{
+	font-size:1.25em;
+	padding-bottom:10px;
+	text-align:center;
+	text-transform:uppercase;
+	
+	letter-spacing:3px;
+	color:#ffffff;
+	
+}
+input{
+	padding:0 30px;
+	width:100%;
+	padding-bottom:15px;
+	display:block;
+	font-size:1em;
+	color:#ffecb3;
+	text-transform:capitalize;
+	padding-bottom:5px;
+}
+::placeholder{
+	color:#ffffff;
+}
+input[type=text]{
+	background:transparent;
+	border:0;
+	border:1px solid #ffecb3;
+	width:100%;
+	padding:8px 20px;
+	font-size:1em;
+	color:#ffffff;
+	border-radius:3px;
+	padding-right:30px;
+}
+textarea[type=text]{
+	background:transparent;
+	border:0;
+	border:1px solid #ffecb3;
+	width:100%;
+	padding:8px 20px;
+	font-size:1em;
+	color:#ffffff;
+	border-radius:3px;
+	padding-right:30px;
+}
+.btn-info{
+	margin:auto;
+	background:#7B819E;
+	color:#ffecb3;
+	font-size:1.25em;
+	padding:20px 0;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-radius:5px;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+.items #msg{
+	height:150px;
+}
+@media screen and(max-width:750px){
+	.input-fields{
+	padding:0;
+	}
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+	}
+.icon-bar{
+	position: fixed;
+	right:.5em;
+  top: 50%;
+  -webkit-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%); 	
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.fa:hover{
+	background-color:transparent;
+}
+.fa-facebook {
+	padding: 23px;
+	text-decoration: none;
+    background-color: #3B5998;
+	color:#ffffff;
+}
+.fa-linkedin {
+	padding: 20px;
+	text-decoration: none;
+	background-color: #007bb5;
+	color:#ffffff;
+}
+.fa-twitter {
+	padding: 20px;
+	text-decoration: none;
+	background: #007bb5;
+	color:#ffffff;
+}
+.fa-instagram {
+	padding: 20px;
+	text-decoration: none;
+	background-color: #125688;
+	color:#ffffff;
+}
+footer{
+	position: relative;
+    padding-top:20px;
+	color:#ffffff;
+	text-align: center;
+}
