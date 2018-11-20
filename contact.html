@@ -17,9 +17,9 @@
 	
 	<hr>
 	<div id="nav">
-	<a href="Index.html" id="linkref">Home&nbsp&nbsp&nbsp&nbsp|</a>
-	<a href="About.html" id="linkref">About Me&nbsp&nbsp&nbsp&nbsp&nbsp|</a>
-	<a href="Contact.html" id="linkref">Contact Me</a>
+	<a href="index.html" id="linkref">Home&nbsp&nbsp&nbsp&nbsp|</a>
+	<a href="about.html" id="linkref">About Me&nbsp&nbsp&nbsp&nbsp&nbsp|</a>
+	<a href="contact.html" id="linkref">Contact Me</a>
 	</div>
 	<hr>
 	
@@ -27,15 +27,11 @@
 	<div class="myForm">
 	<div class="title">Comments/Questions</div>
 			
-	<form action="http://www.singleandwholeoutreach.com/cgi-sys/formmail.pl" method="post" name="hgmailer">
-	<input type="hidden" name="recipient" value="loriwarren@singleandwholeoutreach.com">
-	<input type="hidden" name="subject" value="FormMail E-Mail">
-	<input type="text" name="name" placeholder="Enter Name"><br>
-	<input type="text" name="email" placeholder="Enter Email"><br>
-	<input type="text" name="subject" placeholder="Enter Subject"><br>
+	<form action="contact-form-handler.php" method="post">
+	<input type="text" name="name" placeholder="Enter Name" required=""><br>
+	<input type="text" name="email" placeholder="Enter Email" required><br>
 	<textarea type="text" name="comment" placeholder="Enter Message" style="height:200px"></textarea>
-	<input type="submit" value="SEND" onclick="hgsubmit();" class="btn-info">
-	<input type="hidden" name="redirect" value="http://www.singleandwholeoutreach.com/redirect-path">
+	<input type="submit" value="SEND" class="btn-info">
 
 	</form></div></div>
 	</div>
