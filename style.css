@@ -70,9 +70,9 @@ color: black;
 	  font-size:1.15em;
 }
 .col {
-	  flex: 25 25 25%; /* The important bit. This percentage decides your columns. */
+	  flex: 33.33 33.33%; /* The important bit. This percentage decides your columns. */
 	  margin: 5px;
-	  height: 40rem;
+	  height: 60rem;
 	  background-color:#7B819E;
 	  align-items: normal;
 	  justify-content: center;
@@ -80,13 +80,13 @@ color: black;
 	  padding-right:20px;
 }
 .col h2{
-	font-size:1.25em;
+	font-size:1.50em;
 }
 .col h3{
-	font-size:1em;
+	font-size:1.25em;
 }
 .col p{
-	font-size:.75em;
+	font-size:1em;
 }
 .col1 {
 	  flex: 50%; /* The important bit. This percentage decides your columns. */
