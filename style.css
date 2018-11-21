@@ -50,13 +50,13 @@ color: black;
     font-size:1em;
 }
 .myBio text{
-	font-size:1em;
+	font-size:1.25em;
 }
 .myBio header{
-	font-size:1.5em;
+	font-size:1.75em;
 }
 .myBio p{
-	font-size:1em;
+	font-size:1.25em;
 }
 .myBio::after {
     content: "";
