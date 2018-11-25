@@ -72,6 +72,8 @@ color: black;
 	  max-width: 1000px;
 	  background-color:#7B819E;
 	  padding: 10px;
+	  display: inline-block;
+	  overflow: hidden;
 }
 .col h2{
 	font-size:5vw;
